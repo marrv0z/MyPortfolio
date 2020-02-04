@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(240, 203, 203);
+}
+.card{
+    border-width:20px;
+    border-color: yellow;
+    max-width:500px;
+}
+.container{
+    margin-top: 80px;
+}
+img.projimg{
+    max-width: 300px;
+    height: auto;
+}
+a.card-text:hover{
+    background-color: violet;
+}
+p.aboutMe{
+    color:gray;
+    background-color: teal;
+}
+img.ofMe{
+    max-height:400px;
+    width: auto;
+}
+
+.container.abtMe{
+    border-color: teal;
+    border-width: 20px;
+    background-color: white;
+}
+.footer{
+    bottom:0;
+    background-position-x:center;
+    position:absolute;
+    background-color: white;
+    padding: 20px 40%;
+}
+
+h6{
+    color: tomato;
+}
