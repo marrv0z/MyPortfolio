@@ -41,3 +41,7 @@ img.ofMe{
 h6{
     color: tomato;
 }
+
+.footer.navbar-fixed-bottom{
+    width: 100%;
+}
