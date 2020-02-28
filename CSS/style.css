@@ -1,6 +1,17 @@
 body {
     background-color: rgb(240, 203, 203);
 }
+.nav-item{
+    background-position: center;
+    color:grey;
+}
+#no-show{
+    visibility: hidden;
+    display: none;
+}
+#no-show2{
+    visibility: hidden;
+}
 .card{
     border-width:20px;
     border-color: yellow;
@@ -8,6 +19,7 @@ body {
 }
 .container{
     margin-top: 80px;
+    width:auto;
 }
 img.projimg{
     max-width: 300px;
@@ -44,4 +56,33 @@ h6{
 
 .footer.navbar-fixed-bottom{
     width: 100%;
+    bottom: 0;
+}
+.intro{
+    font-size:1rem ;
+}
+
+@media(max-width:500px){
+    .intro{
+        font-size: 0.7rem;
+        width:auto;
+    }
+    
+    #thiss{
+        visibility: hidden;
+        display:none;
+    }
+    #no-show2{
+        visibility: visible;
+    }
+    .footer.navbar-fixed-bottom{
+        width: 100%;
+        bottom: 0;
+        position: fixed;
+    }
+    .card{
+        border-width:20px;
+        border-color: coral;
+    }
+
 }
