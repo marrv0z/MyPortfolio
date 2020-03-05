@@ -50,6 +50,10 @@ img.ofMe{
     padding: 20px 40%;
 }
 
+.row{
+    margin-bottom: 25px;
+}
+
 h6{
     color: tomato;
 }
