@@ -1,9 +1,21 @@
 body {
-    background-color: rgb(240, 203, 203);
+    background-color: #9AD2CB;
+    font-family: 'Hammersmith One', sans-serif;
 }
 .nav-item{
     background-position: center;
     color:grey;
+}
+.navbar{
+    background-color: #664E4C;
+    
+}
+.navbar-brand{
+    color:#F4D06F;
+    font-size: 2rem;
+}
+.nav-link{
+    color: #F9D4BB;
 }
 #no-show{
     visibility: hidden;
@@ -14,12 +26,17 @@ body {
 }
 .card{
     border-width:20px;
-    border-color: yellow;
+    border-color: #F4D06F;
+    background-color: #F9D4BB;
     max-width:500px;
+}
+.card-title{
+    color: #61988E;
 }
 .container{
     margin-top: 80px;
     width:auto;
+    padding-top: 60px;
 }
 img.projimg{
     max-width: 300px;
@@ -42,20 +59,45 @@ img.ofMe{
     border-width: 20px;
     background-color: white;
 }
-.footer{
+/* .footer{
     bottom:0;
     background-position-x:center;
     position:absolute;
     background-color: white;
     padding: 20px 40%;
-}
+} */
+
+.footer {
+    bottom: 0px;
+    position: relative;
+    /*margin-top: -150px; /* negative value of footer height */
+    height: 100px;
+    clear:both;
+    padding-top:20px;
+    background-color: white;
+} 
 
 .row{
     margin-bottom: 25px;
 }
 
 h6{
-    color: tomato;
+    color: #493843;
+}
+
+p.card-text{
+    color:rgb(123, 168, 211);
+}
+a.card-text{
+    color: rgb(169, 197, 69);
+}
+
+.navbar-toggler{
+    background-color: #524948;
+}
+
+.navbar-toggler-icon{
+    caret-color: #F9D4BB;
 }
 
 .footer.navbar-fixed-bottom{
@@ -64,6 +106,16 @@ h6{
 }
 .intro{
     font-size:1rem ;
+}
+.git{
+    color: #664E4C;
+}
+.git:hover{
+    background-color: cornsilk;
+}
+.appT{
+    color: #C1D37F;
+    background-color: #61988E;
 }
 
 @media(max-width:500px){
@@ -86,7 +138,7 @@ h6{
     }
     .card{
         border-width:20px;
-        border-color: coral;
+        border-color: #FF6B35;
     }
 
 }
